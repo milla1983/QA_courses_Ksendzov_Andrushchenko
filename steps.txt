@@ -1,0 +1,16 @@
+git clone  <URL/Path>  //клонировать репозиторий на локальный компьютер
+cd JSON
+vi new.json          // создать файл json
+git add new.json    // добавить файл по гит
+git commit -m       // закоммитить файл
+git push            //отправить файл на внешний репозиторий
+vi new.json         // отредактировать файл
+I   ESС :wq!        // редактировать, записать и выйти
+git commit -u new.json
+git push            //отправить изменения на внешний репозиторий
+vi preference.json  // создать новый файл json
+vi skils.json       // создать новый файл
+git add preferences.json skils.json// добавить изменения
+git commit -m "All at once "
+git push
+git pull  //синхронизировать локальный репозиторий с удаленным
