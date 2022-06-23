@@ -1,4 +1,5 @@
-# Git_hw
+## В данном репозитории представлена домашняя работа по работе с ветками в Git
+### Git_hw
  
 1.На локальном репозитории сделать ветки для: 
 
@@ -18,16 +19,7 @@
 3.В ветке Bug Reports сделать текстовый документ 
 со структурой баг репорта - `git checkout Bug_Reports` ; `cat > bug_report_1.txt;`
 
-ID
-Environment
-Priority
-Severity
-Title
-Module
-Precondition
-Steps_to_reproduce
-Expected_result
-Actual_result  
+
 
 4.Запушить структуру багрепорта на внешний репозиторий -` git add . ; git commit -m "add bug_report_1.txt" ; git push;` 
 
@@ -40,13 +32,7 @@ Actual_result
 7.В ветке CheckLists набросать структуру чек листа - `git checkout CheckLists ; cat > cheklist_website.txt;` 
 
 
-ID
-Title
-Precondition
-Module
-Steps_to_reproduce
-Expected_result
-Status Enter CTRL+D 
+
 
 8.Запушить структуру на внешний репозиторий - `git add . ; git commit -m "add checklist.txt" ; git push;`
 
