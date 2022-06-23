@@ -17,11 +17,11 @@
 
 
 3.В ветке Bug Reports сделать текстовый документ 
-со структурой баг репорта - `git checkout Bug_Reports` ; `cat > bug_report_1.txt;`
+со структурой баг репорта - `git checkout Bug_Reports` ; `cat > str.bug_rep.txt;`
 
 
 
-4.Запушить структуру багрепорта на внешний репозиторий -` git add . ; git commit -m "add bug_report_1.txt" ; git push;` 
+4.Запушить структуру багрепорта на внешний репозиторий -` git add . ; git commit -m "add str.bug_rep.txt" ; git push;` 
 
 
 5.Вмержить ветку Bug Reports в Main - `git checkout main ; git merge Bug_Reports;`
@@ -29,12 +29,12 @@
 6.Запушить main на внешний репозиторий - `git add . ; git commit -m "merge Bug report to master;" ; git push;` 
 
 
-7.В ветке CheckLists набросать структуру чек листа - `git checkout CheckLists ; cat > cheklist_website.txt;` 
+7.В ветке CheckLists набросать структуру чек листа - `git checkout CheckLists ; cat > str.cheklist.txt;` 
 
 
 
 
-8.Запушить структуру на внешний репозиторий - `git add . ; git commit -m "add checklist.txt" ; git push;`
+8.Запушить структуру на внешний репозиторий - `git add . ; git commit -m "add str.checklist.txt" ; git push;`
 
 9.На внешнем репозитории сделать Pull Request ветки CheckLists в main - Перейти на веб версию github в нужный репозиторий, изменить ветку на Checklists, нажать Pull Request
 
