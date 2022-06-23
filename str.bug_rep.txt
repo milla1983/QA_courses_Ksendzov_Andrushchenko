@@ -1,9 +1,12 @@
                     Структра Баг репорта
+- ID                    
 - Короткое описание (Bug Summery)
 - Детальное описание (Description)
 - Серьезность (Severity)
 - Приоритет (Priority)
+- Окружение (Environment)
 - Шаги к воспроизведению (Steps to reproduce) 
 - Результат (Actual Result)
 - Ожидаемый результат (Expected Result)
+- Вложения (Attachments)
 - Версия приложения (Build found)
